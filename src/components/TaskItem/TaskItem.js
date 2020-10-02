@@ -49,8 +49,8 @@ class TaskItem extends Component {
        
         return (
             <tr>
-                <th scope="row">{this.props.index}</th>
-                <td className={TaskDone}>{this.props.task.name}</td>
+                <th scope="row"><p>{this.props.index}</p></th>
+                <td className={TaskDone}><p>{this.props.task.name}</p></td>
                 <td className={TimeExcute}>
                     Bắt đầu: {this.props.task.timeCreate}<br/>
                     {this.upDateTimeDone()}
