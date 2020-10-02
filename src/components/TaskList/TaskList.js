@@ -71,16 +71,16 @@ class TaskList extends Component {
         if(signalSort === 1 || signalSort === '1') //sort A to Z
         {
           arrCloneTaskList.sort((a, b) => {
-            if (a.name < b.name) return -1
-            return a.name > b.name ? 1 : 0
+            if (a.key_search < b.key_search) return -1
+            return a.key_search > b.key_search ? 1 : 0
           })
         }
         if(signalSort === 2 || signalSort === '2')  //sort Z to A
         {
          
           arrCloneTaskList.sort((a, b) => {
-            if (a.name > b.name) return -1
-            return a.name > b.name ? 1 : 0
+            if (a.key_search > b.key_search) return -1
+            return a.key_search > b.key_search ? 1 : 0
           })
         }
         if(signalSort === 3 || signalSort === '3') //sort theo Task đã hoàn thành
