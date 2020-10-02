@@ -52,11 +52,11 @@ class TaskItem extends Component {
                 <th scope="row"><p>{this.props.index}</p></th>
                 <td className={TaskDone}><p>{this.props.task.name}</p></td>
                 <td className={TimeExcute}>
-                    Bắt đầu: {this.props.task.timeCreate}<br/>
-                    {this.upDateTimeDone()}
+                    Bắt đầu: <p>{this.props.task.timeCreate}</p><br/>
+                    <p>{this.upDateTimeDone()}</p>
                 </td>
 
-                <td className="tdStatus"> {status}</td>
+                <td className="tdStatus"><p>{status}</p></td>
                 <td>
                     <div className="row">
                         <div className="btn-group" role="group" >

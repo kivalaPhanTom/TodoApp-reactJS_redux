@@ -18,7 +18,9 @@
   }
 @media (max-width:576px){
     p{
-       font-size:13px !important;  
-     }
-    
+       font-size:15px !important;  
+    }
+    .btn{
+        font-size: 15px;
+    }
   }
