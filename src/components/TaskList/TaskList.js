@@ -115,7 +115,7 @@ class TaskList extends Component {
           searchNotFound="Không tìm thấy kết quả !!!"
          }
         if(taskList.length === 0){  //kiểm tra xem web của chúng ta có task nào không ,nếu không thì thông báo ra
-          checkNoTask= "Chưa có công việc nào được thêm !"
+          searchNotFound= "Chưa có công việc nào được thêm !"
          }
        
         var TaskLists=arrCloneTaskList.map((task, index)=>{
@@ -142,10 +142,11 @@ class TaskList extends Component {
               </tr>
             </thead>
             <tbody>
-              {TaskLists} {checkNoTask}    
+              {TaskLists} 
             </tbody>
           </table>
-           <p>{searchNotFound}</p>
+          {checkNoTask}   
+          <p className="searchNotFound">{searchNotFound}</p> 
             </div>    
         );
     }
