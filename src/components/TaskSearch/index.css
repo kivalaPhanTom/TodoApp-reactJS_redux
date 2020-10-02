@@ -1,0 +1,20 @@
+.button_Search{
+    background-color: #28a745 !important;
+    color: white;
+}
+.input_Seacrh:focus{
+    border-color: #ced4da;
+    box-shadow: none;
+  }
+  .component_search{
+      width: 80%;
+  }
+  .input-group-append:hover{
+      cursor: pointer;
+  }
+
+ @media (max-width:768px){
+    .component_search{
+        width: 100%;
+    }
+}

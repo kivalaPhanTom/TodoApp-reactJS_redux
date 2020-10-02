@@ -1,0 +1,10 @@
+export const SAVE_TASK='SAVE_TASK';
+export const DELETE_TASK='DELETE_TASK';
+export const GET_TASK_EDITING='GET_TASK_EDITING';
+export const CLOSE_FORM = 'CLOSE_FORM';
+export const OPEN_FORM = 'OPEN_FORM';
+export const CHANGE_STATUS = 'CHANGE_STATUS';
+export const UPDATE_TIME_TASK_DONE = 'UPDATE_TIME_TASK_DONE';
+export const CHECK_DISPLAY_OPTION_TASK_DONE = 'CHECK_DISPLAY_OPTION_TASK_DONE';
+export const SEARCH = 'SEARCH';
+export const SORT = 'SORT';

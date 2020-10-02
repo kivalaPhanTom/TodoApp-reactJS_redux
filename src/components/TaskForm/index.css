@@ -1,0 +1,51 @@
+.taskForm{
+    background-color: #c3e6cb;
+    border-radius: 7px;
+    padding:20px;
+}
+.fa-times-circle{
+    color: #28a745;
+    float: right;
+}
+.formTask{
+    clear: both;
+}
+.selectStatus{
+    width: 340px;
+}
+.input_nameWork:focus{
+    border-color: #ced4da;
+    box-shadow: none;
+}
+.selectStatus:focus{
+    border-color: #ced4da;
+    box-shadow: none;
+}
+.taskForm{
+    height:300px;
+}
+.fa-times-circle:hover{
+   color: green;
+   transition: 0.4s;
+}
+@media (max-width:1200px){
+    .selectStatus{
+        width: 282px;
+    }
+  }
+  @media (max-width:992px){
+    .selectStatus{
+        width: 322px;
+    }
+  }
+  @media (max-width:768px){
+    .selectStatus{
+        width: 276px;
+    }
+  }
+  @media (max-width:576px){
+    .taskForm{
+        width: 350px;
+    }
+  }
+ 

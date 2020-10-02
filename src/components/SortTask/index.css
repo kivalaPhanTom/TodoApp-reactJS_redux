@@ -1,0 +1,30 @@
+.select_method_sort{
+    width: 413px;
+}
+.select_method_sort:focus{
+    border-color: #ced4da;
+    box-shadow: none;
+}
+@media (max-width:1200px){
+    .select_method_sort{
+        width: 345px;
+    }
+  }
+@media (max-width:1200px){
+    .select_method_sort{
+        width: 252px;
+    }
+  }
+@media (max-width:768px){
+    .select_method_sort{
+        width: 286px;
+    }
+  }
+@media (max-width:576px){
+    .select_method_sort{
+        width: 251px;
+    }
+  }
+select.custom-select.select_method_sort {
+    background-color: #00800014;
+}

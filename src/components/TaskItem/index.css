@@ -1,0 +1,18 @@
+.taskDone{
+    text-decoration: line-through;
+    color: #343a408c;
+}
+.imgCheck{
+   margin-left: 30px;  
+}
+.timeExcute{
+    color: #343a408c;
+}
+.btn-status:hover{
+    cursor: pointer;
+}
+@media (max-width:768px){
+    .imgCheck{
+        margin-left: 10px;  
+     }
+  }
